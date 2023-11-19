@@ -5,7 +5,6 @@ function collectStrings(obj) {
       if (typeof obj[key] === 'string') {
         strings.push(obj[key]);
       } else {
-        console.log(obj[key])
         toString(obj[key]);
       }
     }
